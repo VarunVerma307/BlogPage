@@ -11,7 +11,7 @@ const Blogs = () => {
       (
         posts.length===0?
         (
-            <div><p>No Post Found</p></div>
+            <div><p>No Post was there</p></div>
         )
         :
         (posts.map((post)=>{
